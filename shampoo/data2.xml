@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grasp>
+  <data ext_cloud=".pcd" ext_data=".xml" ext_trajectory=".trj" sep_field=" " sep_name="-">
+    <appearance camera_frame="1" camera_frame_size="0.05" feature_curv_pow="1" frame_num="100" mode="point" mode_3d="0" mode_3d_a="177" point_size="1">
+      <colour A="255" B="0" G="0" R="255" override="1"></colour>
+      <frame_size v1="0.2" v2="0.2" v3="0.01"></frame_size>
+    </appearance>
+    <grasp_cluster path="./data/boris/shampoo/data2-grasp_cluster.graspcluster"></grasp_cluster>
+    <grasp_config path="./data/boris/shampoo/data2-grasp_config.graspconfig"></grasp_config>
+    <label label="1" name="shampoo"></label>
+    <label label="2" name="shampoo-1"></label>
+    <label label="3" name="shampoo-2"></label>
+    <label label="4" name="shampoo-3"></label>
+    <label label="5" name="shampoo-4"></label>
+    <label label="6" name="shampoo-5"></label>
+    <label label="7" name="shampoo-6"></label>
+    <label label="8" name="shampoo-7"></label>
+    <label label="9" name="shampoo-1-2-3-4-5-6-7"></label>
+    <points label="2" path="./data/boris/shampoo/data2-points-shampoo-1-1.pcd"></points>
+    <points label="3" path="./data/boris/shampoo/data2-points-shampoo-2-1.pcd"></points>
+    <points label="4" path="./data/boris/shampoo/data2-points-shampoo-3-1.pcd"></points>
+    <points label="5" path="./data/boris/shampoo/data2-points-shampoo-4-1.pcd"></points>
+    <points label="6" path="./data/boris/shampoo/data2-points-shampoo-5-1.pcd"></points>
+    <points label="7" path="./data/boris/shampoo/data2-points-shampoo-6-1.pcd"></points>
+    <points label="8" path="./data/boris/shampoo/data2-points-shampoo-7-1.pcd"></points>
+    <points label="9" path="./data/boris/shampoo/data2-points-shampoo-1-2-3-4-5-6-7-1.pcd"></points>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-1.pcd">
+      <robot_pose c1="2.24194" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780088" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56494" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99427" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489679" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.1528" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178338" m12="0.0904418" m13="0.979804" m21="0.0120533" m22="0.995893" m23="-0.0897331" m31="-0.983895" m32="-0.00419294" m33="-0.178696" v1="0.494945" v2="-0.375618" v3="0.345416"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-2.pcd">
+      <robot_pose c1="1.98702" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82022" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993686" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.472116" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701148" c60="0" c61="0" c7="-0.601656" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.110418" m12="-0.992321" m13="0.0557373" m21="-0.870356" m22="0.12362" m23="0.476653" m31="-0.479883" m32="0.00411982" m33="-0.877323" v1="0.539693" v2="0.0496242" v3="0.182478"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-3.pcd">
+      <robot_pose c1="1.60132" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85833" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109386" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.45007" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04636" c60="0" c61="0" c7="-0.639305" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.586595" m12="-0.733653" m13="0.343015" m21="-0.584283" m22="0.676652" m23="0.448057" m31="-0.56082" m32="0.06241" m33="-0.825582" v1="0.783829" v2="-0.171402" v3="0.183279"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-4.pcd">
+      <robot_pose c1="1.65995" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.53042" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361585" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208225" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.617442" c60="0" c61="0" c7="-0.0828213" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.768681" m12="0.0199768" m13="0.63932" m21="0.0207784" m22="0.999765" m23="-0.00625679" m31="-0.639294" m32="0.0084746" m33="-0.768915" v1="0.823845" v2="-0.460664" v3="0.165345"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-5.pcd">
+      <robot_pose c1="1.64565" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20664" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61823" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496629" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.14301" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587923" c60="0" c61="0" c7="0.634277" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.484879" m12="0.723976" m13="0.490664" m21="0.600788" m22="0.683431" m23="-0.414699" m31="-0.635567" m32="0.0937063" m33="-0.766338" v1="0.747508" v2="-0.742824" v3="0.16574"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-6.pcd">
+      <robot_pose c1="1.7097" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.94404" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707648" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126308" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.752083" c60="0" c61="0" c7="0.841146" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.00625961" m12="0.997805" m13="0.0659228" m21="0.850134" m22="0.0400217" m23="-0.525044" m31="-0.52653" m32="0.0527566" m33="-0.848518" v1="0.544047" v2="-0.976983" v3="0.18778"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/shampoo/data2-points_raw-shampoo-7.pcd">
+      <robot_pose c1="2.05577" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926666" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688761" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69531" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.72129" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410082" c60="0" c61="0" c7="0.531447" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.520506" m12="0.828524" m13="-0.206452" m21="0.726505" m22="-0.556769" m23="-0.402738" m31="-0.448624" m32="0.0596389" m33="-0.891728" v1="0.18854" v2="-0.938587" v3="0.170119"></robot_pose>
+    </points_raw>
+    <trajectory name="pinch" path="./data/boris/shampoo/data2-trajectory-pinch.trj"></trajectory>
+  </data>
+</grasp>

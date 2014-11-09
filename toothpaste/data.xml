@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<grasp>
+  <data ext_cloud=".pcd" ext_data=".xml" ext_trajectory=".trj" sep_field=" " sep_name="-">
+    <appearance camera_frame="1" camera_frame_size="0.05" feature_curv_pow="1" frame_num="100" mode="point" mode_3d="0" mode_3d_a="177" point_size="1">
+      <colour A="255" B="0" G="0" R="255" override="1"></colour>
+      <frame_size v1="0.2" v2="0.2" v3="0.01"></frame_size>
+    </appearance>
+    <grasp_cluster path="./data/boris/toothpaste/data-grasp_cluster.graspcluster"></grasp_cluster>
+    <grasp_config path="./data/boris/toothpaste/data-grasp_config.graspconfig"></grasp_config>
+    <label label="1" name="toothpaste"></label>
+    <label label="2" name="toothpaste-1"></label>
+    <label label="3" name="toothpaste-2"></label>
+    <label label="4" name="toothpaste-3"></label>
+    <label label="5" name="toothpaste-4"></label>
+    <label label="6" name="toothpaste-5"></label>
+    <label label="7" name="toothpaste-6"></label>
+    <label label="8" name="toothpaste-7"></label>
+    <label label="9" name="toothpaste-1-2-3-4-5-6-7"></label>
+    <points label="2" path="./data/boris/toothpaste/data-points-toothpaste-1-1.pcd"></points>
+    <points label="3" path="./data/boris/toothpaste/data-points-toothpaste-2-1.pcd"></points>
+    <points label="4" path="./data/boris/toothpaste/data-points-toothpaste-3-1.pcd"></points>
+    <points label="5" path="./data/boris/toothpaste/data-points-toothpaste-4-1.pcd"></points>
+    <points label="6" path="./data/boris/toothpaste/data-points-toothpaste-5-1.pcd"></points>
+    <points label="7" path="./data/boris/toothpaste/data-points-toothpaste-6-1.pcd"></points>
+    <points label="8" path="./data/boris/toothpaste/data-points-toothpaste-7-1.pcd"></points>
+    <points label="9" path="./data/boris/toothpaste/data-points-toothpaste-1-2-3-4-5-6-7-1.pcd"></points>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-1.pcd">
+      <robot_pose c1="2.24194" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780071" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56492" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99425" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489685" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03592" c60="0" c61="0" c7="-1.15279" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178365" m12="0.0904264" m13="0.979801" m21="0.012085" m22="0.995894" m23="-0.0897117" m31="-0.98389" m32="-0.00416047" m33="-0.178725" v1="0.494955" v2="-0.37563" v3="0.345414"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-2.pcd">
+      <robot_pose c1="1.98705" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82023" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993683" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.472114" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701148" c60="0" c61="0" c7="-0.601656" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.104501" m12="-0.992439" m13="0.0643831" m21="-0.876332" m22="0.122498" m23="0.465872" m31="-0.470236" m32="-0.00773692" m33="-0.882507" v1="0.532502" v2="0.0547146" v3="0.175338"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-3.pcd">
+      <robot_pose c1="1.60133" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85829" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109373" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.450078" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04635" c60="0" c61="0" c7="-0.63916" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.579589" m12="-0.738546" m13="0.344422" m21="-0.587543" m22="0.671594" m23="0.451392" m31="-0.564685" m32="0.0592588" m33="-0.823176" v1="0.778699" v2="-0.166134" v3="0.183746"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-4.pcd">
+      <robot_pose c1="1.65996" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.53039" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361581" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208212" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.617582" c60="0" c61="0" c7="-0.0828452" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.769834" m12="0.0338753" m13="0.637345" m21="0.0340802" m22="0.999348" m23="-0.0119512" m31="-0.637334" m32="0.0125204" m33="-0.770486" v1="0.821901" v2="-0.461516" v3="0.165083"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-5.pcd">
+      <robot_pose c1="1.64564" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20664" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61823" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496621" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.14301" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587736" c60="0" c61="0" c7="0.634132" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.480155" m12="0.725096" m13="0.493647" m21="0.612321" m22="0.680025" m23="-0.403272" m31="-0.628103" m32="0.108637" m33="-0.770509" v1="0.742978" v2="-0.742944" v3="0.163056"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-6.pcd">
+      <robot_pose c1="1.70971" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.944012" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707646" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126302" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.752082" c60="0" c61="0" c7="0.841208" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.00312457" m12="0.997812" m13="0.0660424" m21="0.862092" m22="0.0361546" m23="-0.505461" m31="-0.506743" m32="0.0553552" m33="-0.860318" v1="0.542488" v2="-0.978775" v3="0.176217"></robot_pose>
+    </points_raw>
+    <points_raw label="1" path="./data/boris/toothpaste/data-points_raw-toothpaste-7.pcd">
+      <robot_pose c1="2.05576" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926692" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688758" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.721288" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.409989" c60="0" c61="0" c7="0.531466" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.517735" m12="0.827543" m13="-0.217079" m21="0.746509" m22="-0.560921" m23="-0.357898" m31="-0.41794" m32="0.0232453" m33="-0.908177" v1="0.197442" v2="-0.954162" v3="0.149193"></robot_pose>
+    </points_raw>
+    <trajectory name="pinchsupp" path="./data/boris/toothpaste/data-trajectory-pinchsupp.trj"></trajectory>
+  </data>
+</grasp>
