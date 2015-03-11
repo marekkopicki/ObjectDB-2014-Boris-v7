@@ -111,5 +111,9 @@
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
+
+    <item handler="Trajectory+Trajectory" label="pinch" path_position="0" prefix="-item-pinch-1" waypoint=".wp"></item>
+    <item handler="Trajectory+Trajectory" label="pinchsmall" path_position="0" prefix="-item-pinchsmall-1" waypoint=".wp"></item>
+    <item handler="Trajectory+Trajectory" label="powertube" path_position="0" prefix="-item-powertube-1" waypoint=".wp"></item>
   </data>
 </grasp>
