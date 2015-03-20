@@ -41,7 +41,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-1-1" time_stamp="0">
       <config c1="2.24194" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.78011" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56492" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99427" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489681" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15279" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178349" m12="0.0904392" m13="0.979802" m21="0.0120427" m22="0.995893" m23="-0.0897324" m31="-0.983894" m32="-0.00420417" m33="-0.178706" v1="0.494946" v2="-0.375614" v3="0.345409"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -50,7 +50,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-2-1" time_stamp="0">
       <config c1="1.98704" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82023" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993684" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.472114" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701152" c60="0" c61="0" c7="-0.601656" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.104504" m12="-0.992439" m13="0.0643762" m21="-0.876333" m22="0.122498" m23="0.465869" m31="-0.470233" m32="-0.00772978" m33="-0.882509" v1="0.532501" v2="0.0547137" v3="0.175335"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -59,7 +59,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-3-1" time_stamp="0">
       <config c1="1.60131" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85832" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109347" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.450066" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04634" c60="0" c61="0" c7="-0.639264" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.579507" m12="-0.738625" m13="0.344389" m21="-0.587638" m22="0.671511" m23="0.451392" m31="-0.564671" m32="0.059209" m33="-0.823189" v1="0.778689" v2="-0.166111" v3="0.183723"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -68,7 +68,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-4-1" time_stamp="0">
       <config c1="1.65995" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.53041" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361576" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208208" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.61755" c60="0" c61="0" c7="-0.0828264" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.769821" m12="0.0338758" m13="0.63736" m21="0.034083" m22="0.999348" m23="-0.0119492" m31="-0.637349" m32="0.0125244" m33="-0.770473" v1="0.821903" v2="-0.461504" v3="0.165073"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -77,7 +77,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-5-1" time_stamp="0">
       <config c1="1.64566" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20665" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61823" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496622" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.14301" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587922" c60="0" c61="0" c7="0.634079" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.480269" m12="0.725117" m13="0.493506" m21="0.612341" m22="0.680021" m23="-0.40325" m31="-0.627998" m32="0.108525" m33="-0.770611" v1="0.74297" v2="-0.742935" v3="0.163055"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -86,7 +86,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-6-1" time_stamp="0">
       <config c1="1.70971" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.944041" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707647" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126296" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.752083" c60="0" c61="0" c7="0.841185" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.00317896" m12="0.997812" m13="0.0660451" m21="0.862087" m22="0.0362032" m23="-0.505465" m31="-0.50675" m32="0.0553298" m33="-0.860316" v1="0.542502" v2="-0.97876" v3="0.176215"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -95,7 +95,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv" prefix="-points-cardboardring-7-1" time_stamp="0">
       <config c1="2.05577" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926669" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688757" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.721292" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.409999" c60="0" c61="0" c7="0.531447" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.517743" m12="0.827538" m13="-0.217076" m21="0.746515" m22="-0.560928" m23="-0.357876" m31="-0.41792" m32="0.0232373" m33="-0.908187" v1="0.197434" v2="-0.954164" v3="0.149189"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
@@ -105,7 +105,7 @@
     <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="cardboardring-curv-all_views" prefix="-points-cardboardring-1-2-3-4-5-6-7-1" time_stamp="0">
       <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="3" v2="3" v3="1"></curv_std_dev_fac>
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
