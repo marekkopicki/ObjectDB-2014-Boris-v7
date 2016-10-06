@@ -38,74 +38,98 @@
       <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-1-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-1-1" time_stamp="0">
       <config c1="2.24193" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-0.780107" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="2.56493" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99426" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489683" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15282" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="-0.178354" m12="0.0904394" m13="0.979801" m21="0.0120229" m22="0.995893" m23="-0.0897362" m31="-0.983893" m32="-0.00422473" m33="-0.178709" v1="0.494948" v2="-0.375615" v3="0.345408"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-2-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-2-1" time_stamp="0">
       <config c1="1.98701" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-1.82022" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993679" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.47212" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701155" c60="0" c61="0" c7="-0.601656" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="-0.0834384" m12="-0.994763" m13="0.0590278" m21="-0.872499" m22="0.101544" m23="0.477949" m31="-0.48144" m32="-0.0116224" m33="-0.876402" v1="0.519594" v2="0.0488114" v3="0.181847"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-3-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-3-1" time_stamp="0">
       <config c1="1.60131" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-1.85833" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109334" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.450062" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04634" c60="0" c61="0" c7="-0.639297" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="-0.567478" m12="-0.748107" m13="0.343953" m21="-0.596736" m22="0.661496" m23="0.454235" m31="-0.56734" m32="0.0525192" m33="-0.821807" v1="0.771632" v2="-0.161395" v3="0.185004"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-4-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-4-1" time_stamp="0">
       <config c1="1.65998" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-1.53038" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361578" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208204" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.617553" c60="0" c61="0" c7="-0.0828298" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="-0.764985" m12="0.0159407" m13="0.643851" m21="0.0236787" m22="0.999714" m23="0.00338226" m31="-0.643613" m32="0.0178329" m33="-0.765143" v1="0.818214" v2="-0.45843" v3="0.167431"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-5-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-5-1" time_stamp="0">
       <config c1="1.64564" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-1.20666" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="1.61823" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496633" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.143018" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587741" c60="0" c61="0" c7="0.634079" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="-0.485816" m12="0.714695" m13="0.503185" m21="0.60737" m22="0.690022" m23="-0.393663" m31="-0.628557" m32="0.114372" m33="-0.769308" v1="0.744785" v2="-0.741144" v3="0.163093"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-6-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-6-1" time_stamp="0">
       <config c1="1.70971" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-0.944044" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707644" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126287" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.752082" c60="0" c61="0" c7="0.841168" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="-0.0117491" m12="0.996965" m13="0.0769623" m21="0.864332" m22="0.0488266" m23="-0.500546" m31="-0.502785" m32="0.06064" m33="-0.862282" v1="0.546987" v2="-0.980543" v3="0.1739"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv" prefix="-points-lubricantspray-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv" prefix="-points-lubricantspray-7-1" time_stamp="0">
       <config c1="2.05576" c10="0.0555397" c11="0.0555397" c12="0.000391942" c13="0.00224316" c14="0.130039" c15="0.130039" c16="0.0217994" c17="0.156628" c18="0.149692" c19="0.0711522" c2="-0.926689" c20="-0.0257377" c21="0.197379" c22="0.113826" c23="0.113826" c24="-0.0745072" c25="0.0403686" c26="0.015708" c27="0.07854" c28="0" c29="0" c3="0.688752" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.72129" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.409995" c60="0" c61="0" c7="0.531449" c8="0.0561415" c9="0.268283" dim="61" dt="0" flags="" m11="0.525256" m12="0.83188" m13="-0.179114" m21="0.739334" m22="-0.550351" m23="-0.387943" m31="-0.421297" m32="0.0713443" m33="-0.904112" v1="0.187234" v2="-0.944892" v3="0.153814"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="lubricantspray-curv-all_views" prefix="-points-lubricantspray-1-2-3-4-5-6-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="lubricantspray-curv-all_views" prefix="-points-lubricantspray-1-2-3-4-5-6-7-1" time_stamp="0">
       <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>

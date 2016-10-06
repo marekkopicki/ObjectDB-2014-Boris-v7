@@ -38,74 +38,98 @@
       <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-1-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-1-1" time_stamp="0">
       <config c1="2.24195" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780093" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56494" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99425" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489693" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15281" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178333" m12="0.0904537" m13="0.979804" m21="0.0120604" m22="0.995892" m23="-0.0897438" m31="-0.983896" m32="-0.00418745" m33="-0.178691" v1="0.49495" v2="-0.375619" v3="0.345422"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-2-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-2-1" time_stamp="0">
       <config c1="1.98701" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82023" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993688" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.47212" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.70115" c60="0" c61="0" c7="-0.601656" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.110416" m12="-0.992322" m13="0.0557265" m21="-0.87036" m22="0.123612" m23="0.476647" m31="-0.479876" m32="0.00412722" m33="-0.877326" v1="0.53969" v2="0.0496257" v3="0.182472"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-3-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-3-1" time_stamp="0">
       <config c1="1.60132" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85831" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109373" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.450064" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04637" c60="0" c61="0" c7="-0.639252" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.58664" m12="-0.733611" m13="0.343028" m21="-0.584241" m22="0.676696" m23="0.448045" m31="-0.560817" m32="0.0624304" m33="-0.825583" v1="0.783835" v2="-0.171419" v3="0.183288"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-4-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-4-1" time_stamp="0">
       <config c1="1.65997" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.53042" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361582" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208212" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.617442" c60="0" c61="0" c7="-0.0828213" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.76867" m12="0.0199676" m13="0.639333" m21="0.0207638" m22="0.999765" m23="-0.00626026" m31="-0.639308" m32="0.0084629" m33="-0.768904" v1="0.823847" v2="-0.46066" v3="0.165359"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-5-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-5-1" time_stamp="0">
       <config c1="1.64565" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20664" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61823" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.49662" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.14301" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587751" c60="0" c61="0" c7="0.634277" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.484808" m12="0.723923" m13="0.490812" m21="0.600728" m22="0.683476" m23="-0.414714" m31="-0.635679" m32="0.0937879" m33="-0.766235" v1="0.747521" v2="-0.742824" v3="0.165751"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-6-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-6-1" time_stamp="0">
       <config c1="1.70971" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.944036" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707648" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126308" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.752073" c60="0" c61="0" c7="0.841218" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.00618272" m12="0.997805" m13="0.0659342" m21="0.850133" m22="0.0399625" m23="-0.525049" m31="-0.526531" m32="0.0528066" m33="-0.848514" v1="0.544047" v2="-0.976985" v3="0.187783"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv" prefix="-points-shampoo-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv" prefix="-points-shampoo-7-1" time_stamp="0">
       <config c1="2.05576" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926707" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688762" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69531" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.721302" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410093" c60="0" c61="0" c7="0.531471" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.520506" m12="0.828526" m13="-0.206443" m21="0.7265" m22="-0.556764" m23="-0.402755" m31="-0.448633" m32="0.0596555" m33="-0.891723" v1="0.188557" v2="-0.938583" v3="0.170126"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="shampoo-curv-all_views" prefix="-points-shampoo-1-2-3-4-5-6-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="shampoo-curv-all_views" prefix="-points-shampoo-1-2-3-4-5-6-7-1" time_stamp="0">
       <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>

@@ -38,74 +38,98 @@
       <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-1-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-1-1" time_stamp="0">
       <config c1="2.24194" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780102" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56492" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99427" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489685" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15278" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178352" m12="0.0904502" m13="0.979801" m21="0.0120562" m22="0.995892" m23="-0.0897411" m31="-0.983893" m32="-0.00419282" m33="-0.17871" v1="0.494946" v2="-0.375618" v3="0.345409"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-2-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-2-1" time_stamp="0">
       <config c1="1.98705" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82023" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993688" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.47212" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701152" c60="0" c61="0" c7="-0.601656" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.104498" m12="-0.992439" m13="0.0643846" m21="-0.876335" m22="0.122496" m23="0.465866" m31="-0.47023" m32="-0.00774052" m33="-0.88251" v1="0.532503" v2="0.0547117" v3="0.175338"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-3-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-3-1" time_stamp="0">
       <config c1="1.60132" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85834" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.010936" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.450066" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04633" c60="0" c61="0" c7="-0.639193" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.579543" m12="-0.738596" m13="0.344392" m21="-0.587598" m22="0.67154" m23="0.4514" m31="-0.564676" m32="0.0592415" m33="-0.823184" v1="0.778685" v2="-0.166095" v3="0.183728"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-4-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-4-1" time_stamp="0">
       <config c1="1.65996" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.53039" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361581" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208204" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.61757" c60="0" c61="0" c7="-0.0828315" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.769827" m12="0.0338876" m13="0.637352" m21="0.0340897" m22="0.999347" m23="-0.0119592" m31="-0.637341" m32="0.0125206" m33="-0.77048" v1="0.821902" v2="-0.461519" v3="0.165082"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-5-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-5-1" time_stamp="0">
       <config c1="1.64564" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20665" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61825" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496622" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.143012" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587753" c60="0" c61="0" c7="0.634079" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.480209" m12="0.725067" m13="0.493638" m21="0.612292" m22="0.680061" m23="-0.403255" m31="-0.628091" m32="0.108604" m33="-0.770524" v1="0.74298" v2="-0.742933" v3="0.163052"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-6-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-6-1" time_stamp="0">
       <config c1="1.70971" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.944044" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707647" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126308" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.752083" c60="0" c61="0" c7="0.84118" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.0031778" m12="0.997811" m13="0.0660513" m21="0.862091" m22="0.036205" m23="-0.505459" m31="-0.506744" m32="0.055336" m33="-0.860319" v1="0.542504" v2="-0.978758" v3="0.176215"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv" prefix="-points-rennie-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv" prefix="-points-rennie-7-1" time_stamp="0">
       <config c1="2.05576" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926681" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688758" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.6953" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.721294" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410021" c60="0" c61="0" c7="0.531449" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.51774" m12="0.827538" m13="-0.217086" m21="0.746523" m22="-0.560929" m23="-0.357858" m31="-0.417911" m32="0.0232179" m33="-0.908191" v1="0.197435" v2="-0.95416" v3="0.149188"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="rennie-curv-all_views" prefix="-points-rennie-1-2-3-4-5-6-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="rennie-curv-all_views" prefix="-points-rennie-1-2-3-4-5-6-7-1" time_stamp="0">
       <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>

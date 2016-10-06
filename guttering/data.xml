@@ -38,74 +38,98 @@
       <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-1-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-1-1" time_stamp="0">
       <config c1="2.24191" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780078" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56492" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99427" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489691" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15281" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178378" m12="0.0904718" m13="0.979794" m21="0.0120568" m22="0.99589" m23="-0.0897631" m31="-0.983888" m32="-0.00419854" m33="-0.178736" v1="0.494949" v2="-0.375631" v3="0.345399"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-2-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-2-1" time_stamp="0">
       <config c1="1.98702" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82022" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993684" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.472116" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701154" c60="0" c61="0" c7="-0.601656" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.10452" m12="-0.992438" m13="0.0643671" m21="-0.876333" m22="0.122508" m23="0.465868" m31="-0.47023" m32="-0.00771431" m33="-0.88251" v1="0.532505" v2="0.0547075" v3="0.175326"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-3-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-3-1" time_stamp="0">
       <config c1="1.60133" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85832" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109398" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.450066" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04643" c60="0" c61="0" c7="-0.639247" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.579533" m12="-0.738634" m13="0.344328" m21="-0.587657" m22="0.671498" m23="0.451385" m31="-0.564624" m32="0.0592455" m33="-0.823219" v1="0.778685" v2="-0.166112" v3="0.183737"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-4-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-4-1" time_stamp="0">
       <config c1="1.65996" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.53038" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361582" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.20821" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.617562" c60="0" c61="0" c7="-0.0828213" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.769821" m12="0.0339013" m13="0.637358" m21="0.0341081" m22="0.999347" m23="-0.0119588" m31="-0.637347" m32="0.0125329" m33="-0.770475" v1="0.821902" v2="-0.461522" v3="0.165082"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-5-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-5-1" time_stamp="0">
       <config c1="1.64562" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20666" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61823" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496622" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.143012" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587782" c60="0" c61="0" c7="0.634165" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.480175" m12="0.725117" m13="0.493597" m21="0.612351" m22="0.680005" m23="-0.403261" m31="-0.62806" m32="0.108619" m33="-0.770547" v1="0.742976" v2="-0.742932" v3="0.163037"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-6-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-6-1" time_stamp="0">
       <config c1="1.70971" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.944017" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707644" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126283" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.751892" c60="0" c61="0" c7="0.841223" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.00311904" m12="0.997803" m13="0.0661758" m21="0.862022" m22="0.0362251" m23="-0.505575" m31="-0.506861" m32="0.0554681" m33="-0.860241" v1="0.542501" v2="-0.978781" v3="0.176223"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv" prefix="-points-guttering-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv" prefix="-points-guttering-7-1" time_stamp="0">
       <config c1="2.05576" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926674" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688758" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.721296" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410004" c60="0" c61="0" c7="0.531468" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.51776" m12="0.827528" m13="-0.217076" m21="0.746505" m22="-0.560943" m23="-0.357874" m31="-0.417918" m32="0.0232439" m33="-0.908187" v1="0.197435" v2="-0.954163" v3="0.149189"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="guttering-curv-all_views" prefix="-points-guttering-1-2-3-4-5-6-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="guttering-curv-all_views" prefix="-points-guttering-1-2-3-4-5-6-7-1" time_stamp="0">
       <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>

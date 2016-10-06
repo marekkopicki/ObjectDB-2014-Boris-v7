@@ -38,74 +38,98 @@
       <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-1-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-1-1" time_stamp="0">
       <config c1="2.24194" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780073" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56492" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99424" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489685" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15279" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.178332" m12="0.0904875" m13="0.979801" m21="0.0120757" m22="0.995889" m23="-0.0897754" m31="-0.983896" m32="-0.00417801" m33="-0.178691" v1="0.494955" v2="-0.375634" v3="0.345418"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-2-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-2-1" time_stamp="0">
       <config c1="1.98705" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.82023" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.68372" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.993684" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.47212" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.701155" c60="0" c61="0" c7="-0.601658" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.104494" m12="-0.992439" m13="0.0643815" m21="-0.876337" m22="0.122491" m23="0.465865" m31="-0.470229" m32="-0.00773983" m33="-0.882511" v1="0.532501" v2="0.0547142" v3="0.175338"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-3-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-3-1" time_stamp="0">
       <config c1="1.60132" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.85828" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.77601" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.0109347" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.45007" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="1.04641" c60="0" c61="0" c7="-0.639273" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.579528" m12="-0.738622" m13="0.344361" m21="-0.587645" m22="0.671513" m23="0.45138" m31="-0.564642" m32="0.0592254" m33="-0.823208" v1="0.778695" v2="-0.166138" v3="0.183739"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-4-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-4-1" time_stamp="0">
       <config c1="1.65997" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.5304" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.68962" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.361582" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.208222" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.617557" c60="0" c61="0" c7="-0.0828366" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.769815" m12="0.033877" m13="0.637367" m21="0.0340896" m22="0.999347" m23="-0.0119432" m31="-0.637356" m32="0.0125335" m33="-0.770468" v1="0.821904" v2="-0.461508" v3="0.165087"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-5-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-5-1" time_stamp="0">
       <config c1="1.64562" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-1.20663" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.61824" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.496621" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="-0.14301" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.587741" c60="0" c61="0" c7="0.634183" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.480118" m12="0.725135" m13="0.493625" m21="0.612371" m22="0.679979" m23="-0.403274" m31="-0.628083" m32="0.108663" m33="-0.770522" v1="0.74297" v2="-0.742956" v3="0.163043"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-6-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-6-1" time_stamp="0">
       <config c1="1.7097" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.944044" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="1.20652" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-0.707647" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.126334" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.751921" c60="0" c61="0" c7="0.841092" c8="0" c9="0" dim="61" dt="0" flags="" m11="-0.00324365" m12="0.997803" m13="0.0661749" m21="0.862041" m22="0.0363297" m23="-0.505535" m31="-0.506829" m32="0.0554057" m33="-0.860265" v1="0.542512" v2="-0.978765" v3="0.176214"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv" prefix="-points-coke-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv" prefix="-points-coke-7-1" time_stamp="0">
       <config c1="2.05576" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.926648" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="0.688757" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.69529" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.721288" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="0.410016" c60="0" c61="0" c7="0.531517" c8="0" c9="0" dim="61" dt="0" flags="" m11="0.517814" m12="0.827491" m13="-0.217088" m21="0.746477" m22="-0.560998" m23="-0.357846" m31="-0.417901" m32="0.0232468" m33="-0.908195" v1="0.197423" v2="-0.954164" v3="0.149183"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
       </query>
     </item>
 
-    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="coke-curv-all_views" prefix="-points-coke-1-2-3-4-5-6-7-1" time_stamp="0">
+    <item cloud=".pcd" handler="Feature3D+Feature3D" label="coke-curv-all_views" prefix="-points-coke-1-2-3-4-5-6-7-1" time_stamp="0">
       <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
+      <feature3d type="curvature"></feature3d>
+      <curvature>
+        <std_dev_fac v1="5" v2="5" v3="1"></std_dev_fac>
+      </curvature>
       <model rand_ang="100">
-        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
       </model>
       <query>
         <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
